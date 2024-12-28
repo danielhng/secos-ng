@@ -21,6 +21,7 @@ SECTIONS
 
    .idt_jmp  : { KEEP(*(.idt_jmp))               } : phsetup
    .text     : { *(.text)                        } : phsetup
+   .user     : { *(.user)                        } : phsetup
    .rodata   : { *(.rodata)                      } : phsetup
    .data     : { *(.data)                        } : phsetup
    .bss      : { *(.bss COMMON)                  } : phsetup

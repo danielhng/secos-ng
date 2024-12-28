@@ -71,7 +71,7 @@ typedef union control_register_3
 
    } __attribute__((packed));
 
-   raw32_t;
+   raw32_t raw;
 
 } __attribute__((packed)) cr3_reg_t;
 
