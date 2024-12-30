@@ -1,4 +1,4 @@
-** Disclaimer **
+DISCLAIMER
 
 Notre travail n'est malheureusement pas entierement fonctionnel. 
 Cela est du a une non réussite de notre part.
@@ -6,8 +6,7 @@ En effet l'appel de iret dans notre clock raise une page fault. C'est malheureux
 
 Normalement, si nous avions résolus ce problème, l'execution du programme aurait entrainé une première éxecution de la tache 1 donc d'incrémentation, puis de read ect grace a la fonction clock.
 
-
-** cartographie memoire **
+CARTOGHRAPHIE MEMOIRE
 
 base de la pgd: 0x200000
 base de la ptb: 0x201000
